@@ -1,0 +1,19 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea
+*.iml
+
+### Application ###
+.mvn
+.mymetadata
+.checkstyle
+.class
+.war
+.zip
+.rar
+.settings/*
+
+/target/*
+.gitignore
