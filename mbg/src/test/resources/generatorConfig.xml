@@ -20,6 +20,15 @@
         <property name="beginningDelimiter" value="`"/>
         <property name="endingDelimiter" value="`"/>
 
+        <!-- lombok 插件 -->
+        <plugin type="com.qs.mmeng.LombokPlugin">
+            <property name="getter" value="true"/>
+            <property name="setter" value="true"/>
+            <property name="noArgsConstructor" value="true"/>
+            <property name="allArgsConstructor" value="true"/>
+            <property name="toString" value="false"/>
+        </plugin>
+
         <!-- 自定义注释生成器 -->
         <commentGenerator type="com.qs.mmeng.CustomCommentGenerator">
             <property name="suppressDate" value="false"/>
